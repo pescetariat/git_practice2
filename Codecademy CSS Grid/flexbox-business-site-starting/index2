@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Business Website</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Ryan Ly</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="jumbotron">
+    <h1 class="display-4">Hello</h1>
+    <p class="lead"></p>
+    <hr class="my-4">
+    <p>Welcome! I am self-taught Full-Stack Developer with knowledge of Python, Javascript, HTML/CSS, and sub libraries to utilize them to their fullest potential.  You can find my Git repository by using the link below. </p>
+    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a> <-- Add Github link
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <h2>About Me</h2>
+        <p>I discovered my passion for coding later in life through my journey of lifelong learning.  Languages have always interested me and the vast array of them in coding with their many nuances excite me and always leave me wanting more.</p>
+      </div>
+      <div class="col-sm-6">
+        <h2>My Services</h2>
+        <p>With a focus on minimalistic and efficient design I can create responsive and attractive websites using libraries such as React and Bootstrap.  Additionally I am constantly learning new tools to add to my repertoire.  </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <h2>Contact Me</h2>
+    <form>
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" class="form-control" id="name" placeholder="Enter your name">
+      </div>
+      <div class="form-group">
+        <label for="email">Email address</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter your email">
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea class="form-control" id="message" rows="3"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
